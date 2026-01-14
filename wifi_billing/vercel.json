@@ -1,3 +1,4 @@
+
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "name": "qonnect-wifi-billing",
@@ -45,9 +46,7 @@
       "destination": "/api/:path*"
     }
   ],
-  "env": {
-    "NEXT_PUBLIC_API_URL": "@api-url"
-  },
   "regions": ["iad1"]
 }
+
 
